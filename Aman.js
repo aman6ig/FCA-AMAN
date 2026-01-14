@@ -68,11 +68,11 @@ function login(appState, callback) {
 
         // 6. SRC Functions Load Karna (Yahan hum apne banaye hue features jodenge)
         
-        // sendMessage abhi banaya hai, usse jod rahe hain
+        // sendMessage load ho gaya
         api.sendMessage = require("./src/sendMessage")(defaultFuncs, api, ctx);
 
-        // Future me yahan listenMqtt bhi aayega
-        // api.listenMqtt = require("./src/listenMqtt")(defaultFuncs, api, ctx);
+        // ✅ UPDATED: Ab listenMqtt bhi active hai
+        api.listenMqtt = require("./src/listenMqtt")(defaultFuncs, api, ctx);
 
         return callback(null, api);
     })
