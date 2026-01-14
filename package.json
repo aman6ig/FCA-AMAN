@@ -1,0 +1,50 @@
+{
+    "name": "rdx-fca",
+    "version": "2.0.1",
+    "description": "SARDAR-FCA - Facebook Chat API by Sardar RDX",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "social": {
+        "whatsapp": "+923003310470",
+        "email": "sardarrdx@gmail.com"
+    },
+    "author": "Sardar RDX",
+    "license": "MIT",
+    "bugs": {
+        "url": ""
+    },
+    "homepage": "",
+    "keywords": [
+        "facebook",
+        "chat",
+        "api",
+        "fca",
+        "rdx",
+        "rdx-fca"
+    ],
+    "dependencies": {
+        "axios": "^1.6.5",
+        "chalk": "^3.0.0",
+        "cheerio": "^0.22.0",
+        "gradient-string": "^1.1.0",
+        "https-proxy-agent": "^4.0.0",
+        "mqtt": "^3.0.0",
+        "node-cron": "^3.0.3",
+        "request": "^2.88.2",
+        "websocket-stream": "^5.5.0"
+    },
+    "devDependencies": {
+        "eslint": "^7.5.0",
+        "mocha": "^7.0.1",
+        "prettier": "^1.11.1"
+    },
+    "engines": {
+        "node": ">=10.x"
+    }
+}
